@@ -4,11 +4,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Container, Jumbotron } from "reactstrap";
+import StyledExp from "../styles/home";
 
 const HomePage = () => {
   return (
-    <Container>
-      <Jumbotron className="bg-light">
+    <Container fluid>
+      <StyledExp>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -23,27 +24,25 @@ const HomePage = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Procurement Department
+              ตำแหน่งงานปัจจุบัน
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
-            </p>
+            <h4 className="vertical-timeline-element-subtitle">
+              สถานที่ทำงานปัจจุบัน
+            </h4>
+            <p>รายละเอียดของงาน</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2010 - 2011"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title">
+              ตำแหน่งงานปัจจุบัน
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              สถานที่ทำงานปัจจุบัน
             </h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-            </p>
+            <p>รายละเอียดของงาน</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -60,7 +59,7 @@ const HomePage = () => {
             <p>Rajamangala University Of Technology Isan Khon Kaen</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-      </Jumbotron>
+      </StyledExp>
     </Container>
   );
 };
