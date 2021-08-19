@@ -6,9 +6,9 @@ const Layout = () => {
       <Container>
         <Navbar.Brand>My Portfolio</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link>Experience</Nav.Link>
+          <Nav.Link href="#sectionexp">Experience</Nav.Link>
           <Nav.Link>Skill</Nav.Link>
-          <Nav.Link>About Me</Nav.Link>
+          <Nav.Link href="#sectionaboutme">About Me</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
