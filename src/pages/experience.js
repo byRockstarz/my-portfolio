@@ -9,7 +9,7 @@ import data from "../resume.json";
 
 const ExperiencePage = () => {
   return (
-    <Container fluid>
+    <Container fluid id="sectionexp">
       {data.map((basic, index) => {
         console.log(basic);
         return (

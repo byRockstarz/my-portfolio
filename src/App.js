@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./components/layout";
 import ExperiencePage from "./pages/experience";
 import HomePage from "./pages/home";
-import AboutMe from "./pages/aboutme";
+import AboutMePage from "./pages/aboutme";
+import SkillPage from "./pages/skill";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Layout />
       <HomePage />
       <ExperiencePage />
-      <AboutMe />
+      <SkillPage />
+      <AboutMePage />
     </div>
   );
 };
