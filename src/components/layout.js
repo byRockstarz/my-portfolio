@@ -7,7 +7,7 @@ const Layout = () => {
         <Navbar.Brand>My Portfolio</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#sectionexp">Experience</Nav.Link>
-          <Nav.Link>Skill</Nav.Link>
+          <Nav.Link href="#sectionskill">Skill</Nav.Link>
           <Nav.Link href="#sectionaboutme">About Me</Nav.Link>
         </Nav>
       </Container>

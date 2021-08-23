@@ -52,9 +52,13 @@ const ExperiencePage = () => {
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdLibraryBooks />}
             >
-              <h3 className="vertical-timeline-element-title"></h3>
-              <h4 className="vertical-timeline-element-subtitle"></h4>
-              <p></p>
+              <h3 className="vertical-timeline-element-title">
+                {basic.education.institution}
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                {basic.education.studyType}
+              </h4>
+              <p>{basic.education.score}</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         );

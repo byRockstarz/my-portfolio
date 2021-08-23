@@ -1,8 +1,9 @@
-import { Badge, Image } from "react-bootstrap";
-import { Col, Container, Row } from "reactstrap";
-import StyledAboutMe from "../styles/aboutme";
+import { Badge } from "react-bootstrap";
+import { Container, Row } from "reactstrap";
 import data from "../resume.json";
 import { motion } from "framer-motion";
+import profile from "../assets/profile.jpg";
+import { StyledAboutMe, StyledImage } from "../styles/aboutme";
 
 const AboutMePage = () => {
   return (
@@ -22,13 +23,7 @@ const AboutMePage = () => {
             </Row>
             <Row>
               <StyledAboutMe>
-                <Image
-                  width="250"
-                  height="250"
-                  style={{ objectFit: "cover" }}
-                  src="/profile.jpg"
-                  roundedCircle
-                />
+                <StyledImage roundedCircle src={profile} />
               </StyledAboutMe>
             </Row>
             <Row>
