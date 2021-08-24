@@ -3,11 +3,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { Container } from "reactstrap";
 import { MdLibraryBooks, MdWork } from "react-icons/md";
 import data from "../resume.json";
-
-import { Chrono } from "react-chrono";
 import { ExpStyled } from "../styles/experience";
 
 const ExperiencePage = () => {

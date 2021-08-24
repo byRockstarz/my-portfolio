@@ -1,19 +1,19 @@
 import styled from "styled-components";
-import { Card } from "react-bootstrap";
+import { Card, ProgressBar } from "react-bootstrap";
 
-export const TextStyled = styled.text`
+export const TextStyled = styled.h1`
   text-align: center;
-  width: 100%;
   font-size: 50px;
-  font-weight: 100;
+  margin-top: 100px;
+  margin-bottom: 50px;
 `;
 
 export const CardStyled = styled(Card)`
   width: 400px;
-  height: 500px;
+  display: flex;
+  align-items: center;
   padding: 20px;
   margin: 10px;
-  background-color: #dedede;
 `;
 
 export const ContainerStyled = styled.section`
@@ -25,4 +25,9 @@ export const ContainerStyled = styled.section`
 export const ImageStyled = styled.image`
   height: 250px;
   width: 250px;
+`;
+
+export const ProgressBarStyled = styled(ProgressBar)`
+  margin-top: 50px;
+  width: 70%;
 `;
