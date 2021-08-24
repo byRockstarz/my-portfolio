@@ -13,6 +13,7 @@ export const CardStyled = styled(Card)`
   height: 500px;
   padding: 20px;
   margin: 10px;
+  background-color: #dedede;
 `;
 
 export const ContainerStyled = styled.section`

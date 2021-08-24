@@ -5,16 +5,17 @@ import ExperiencePage from "./pages/experience";
 import HomePage from "./pages/home";
 import AboutMePage from "./pages/aboutme";
 import SkillPage from "./pages/skill";
+import { AppStyled } from "./styles/app";
 
 const App = () => {
   return (
-    <div>
+    <AppStyled>
       <Layout />
       <HomePage />
       <ExperiencePage />
       <SkillPage />
       <AboutMePage />
-    </div>
+    </AppStyled>
   );
 };
 

@@ -7,9 +7,12 @@ import { Container } from "reactstrap";
 import { MdLibraryBooks, MdWork } from "react-icons/md";
 import data from "../resume.json";
 
+import { Chrono } from "react-chrono";
+import { ExpStyled } from "../styles/experience";
+
 const ExperiencePage = () => {
   return (
-    <Container fluid id="sectionexp">
+    <ExpStyled id="sectionexp">
       {data.map((basic, index) => {
         console.log(basic);
         return (
@@ -63,7 +66,7 @@ const ExperiencePage = () => {
           </VerticalTimeline>
         );
       })}
-    </Container>
+    </ExpStyled>
   );
 };
 

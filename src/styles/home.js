@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledExp = styled.section`
+export const StyledExp = styled.section`
   background: #e0e0e0;
   height: 100%;
   margin-top: 15px;
@@ -8,4 +8,4 @@ const StyledExp = styled.section`
   border-radius: 30px;
 `;
 
-export default StyledExp;
+export const StyledImage = styled.image``;
